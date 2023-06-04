@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <link rel="stylesheet" type="text/css" href="formulario_styles.css">
+</head>
+<body>
+    <div class="topnav">
+        <ul><a href="../index.html">Home</a></ul>
+    </div>
+
+  <div class="container">
+    <h1>Formulario de Contacto</h1>
+    <form id="myForm" onsubmit="return validar()">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required maxlength="5000"></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+
+
+  <script src="formulario_script.js"></script>
+</body>
+</html>

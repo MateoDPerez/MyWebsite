@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+p{
+    font-size: 23px;
+}
+
+/* Estilos de la navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 10px;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos de las secciones */
+section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section h2 {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+#buttonContainer {
+    text-align: left; /* Alinear el contenedor a la izquierda */
+    display: flex;
+    justify-content: center;
+}
+
+#homeButton {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #252525;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#homeButton:hover {
+    background-color: #333;
+    color: white;
+}
+
+#contactButton{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #252525;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#contactButton:hover{
+    background-color: #333;
+    color: white;
+}
+
